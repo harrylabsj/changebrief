@@ -1,7 +1,7 @@
 ---
 name: ChangeBrief
 slug: changebrief
-version: 1.1.0
+version: 1.1.2
 description: Change intelligence skill that compares previous and current knowledge snapshots, surfaces what was newly added, which claims changed, what conclusions are now stale, which conflicts need a decision, and which three changes deserve immediate action. Use when the user asks "最近到底变了什么", wants a daily or weekly change brief, or needs an incremental layer on top of a knowledge base instead of another full summary.
 tags: change-intelligence, delta-summary, knowledge-management, decision-support
 metadata:

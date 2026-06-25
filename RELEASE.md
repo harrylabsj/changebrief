@@ -46,17 +46,13 @@ ChangeBrief 不是再做一个知识仓库。
 - briefing
 - productivity
 
-## Suggested Repo Name
+## Repository
 
-- `openclaw-skill-changebrief`
+- `changebrief`
 
 ## Publish Command
 
 ```bash
-clawhub publish /absolute/path/to/changebrief \
-  --slug changebrief \
-  --name "ChangeBrief" \
-  --version "1.0.1" \
-  --changelog "Fix the published package path so ChangeBrief ships the correct skill files and metadata." \
-  --tags "knowledge,change,delta,briefing,decision-support,productivity"
+npm run verify
+npm run publish:clawhub
 ```

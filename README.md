@@ -100,13 +100,16 @@ changebrief/
 ├── bin/cli.js
 ├── src/index.js
 ├── test/test.js
-└── scripts/publish.sh
+└── scripts/
+    ├── publish.sh
+    └── verify.js
 ```
 
 ## 本地验证
 
 ```bash
-node test/test.js
+npm test
+npm run verify
 node bin/cli.js brief --before-file before.md --after-file after.md
 ```
 

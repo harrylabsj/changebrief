@@ -1,5 +1,18 @@
 # Changelog
 
+## 1.1.2
+
+Release theme: tighten release trust by aligning metadata, repository links, and validation gates.
+
+What changed:
+- Update package, Clawhub, skill, and metadata versions to the same release number
+- Replace stale `openclaw-skill-changebrief` links with the actual `harrylabsj/changebrief` repository
+- Add `npm run verify` as a release gate for syntax checks, unit tests, CLI smoke tests, and metadata consistency
+- Run verification automatically before `npm run publish:clawhub`
+
+Suggested one-line changelog:
+- Align ChangeBrief metadata and repository links, and add a release verification gate before publishing.
+
 ## 1.0.1
 
 Release theme: 修正首发发布路径，确保线上版本对应真正的 ChangeBrief skill 包。

@@ -1,6 +1,6 @@
 {
   "name": "changebrief",
-  "version": "1.0.1",
+  "version": "1.1.2",
   "description": "ChangeBrief - compare previous and current knowledge snapshots to surface important additions, changed claims, stale conclusions, conflicts, and immediate priorities",
   "main": "src/index.js",
   "bin": {
@@ -10,6 +10,7 @@
   "scripts": {
     "start": "node bin/cli.js",
     "test": "node test/test.js",
+    "verify": "node scripts/verify.js",
     "publish:clawhub": "sh ./scripts/publish.sh"
   },
   "keywords": [
@@ -30,10 +31,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/harrylabsj/openclaw-skill-changebrief"
+    "url": "https://github.com/harrylabsj/changebrief"
   },
   "bugs": {
-    "url": "https://github.com/harrylabsj/openclaw-skill-changebrief/issues"
+    "url": "https://github.com/harrylabsj/changebrief/issues"
   },
-  "homepage": "https://github.com/harrylabsj/openclaw-skill-changebrief#readme"
+  "homepage": "https://github.com/harrylabsj/changebrief#readme"
 }
